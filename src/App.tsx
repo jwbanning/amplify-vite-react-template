@@ -33,6 +33,12 @@ function App() {
           Review next step of this tutorial.
         </a>
       </div>
+      <div class="postman-run-button"
+           data-postman-action="collection/fork"
+           data-postman-visibility="public"
+           data-postman-var-1="12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a"
+           data-postman-collection-url="entityId=12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a&entityType=collection&workspaceId=405e0480-49cf-463b-8052-6c0d05a8e8f3">
+      </div>
     </main>
   );
 }
