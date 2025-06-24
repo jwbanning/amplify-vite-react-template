@@ -20,6 +20,12 @@ function App() {
   return (
     <main>
       <h1>My todos</h1>
+      <div className="postman-run-button"
+           data-postman-action="collection/fork"
+           data-postman-visibility="public"
+           data-postman-var-1="12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a"
+           data-postman-collection-url="entityId=12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a&entityType=collection&workspaceId=405e0480-49cf-463b-8052-6c0d05a8e8f3">
+      </div>
       <button onClick={createTodo}>+ new</button>
       <ul>
         {todos.map((todo) => (
